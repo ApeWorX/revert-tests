@@ -1,0 +1,7 @@
+name: Sample
+plugins:
+  - name: vyper
+  - name: hardhat
+hardhat:
+  port: auto
+  gas_limit: "max"
