@@ -32,7 +32,7 @@ def unsignedIntegerMaxMult(_value: uint256) -> uint256:
 
 @external
 def signedIntegerMinMult(_value: int256) -> int256:
-	return min_value(int256) * _value   # dev: signedIntegerMin caused an error.
+	return min_value(int256) * _value   # dev: signedIntegerMinMult caused an error.
 
 @external
 def decimalMaxAdd(_value: decimal) -> decimal:
@@ -44,8 +44,8 @@ def decimalMinSub(_value: decimal) -> decimal:
 
 @external
 def decimalMaxMult(_value: decimal) -> decimal:
-	return max_value(decimal) * _value # dev: decimalMaxAdd caused an error.
+	return max_value(decimal) * _value # dev: decimalMaxMult caused an error.
 
 @external
 def decimalMinMult(_value: decimal) -> decimal:
-	return max_value(decimal) * _value # dev: decimalMaxAdd caused an error.
+	return max_value(decimal) * _value # dev: decimalMinMult caused an error.
